@@ -1,0 +1,17 @@
+# Copy this file to terraform.tfvars and fill in your values
+# Note: terraform.tfvars should be added to .gitignore to avoid committing secrets
+
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Environment
+environment = "dev"
+
+# Project Configuration
+project_name = "rental-arbitrage"
+
+# S3 bucket prefix (must be globally unique)
+# Consider using your initials or organization name
+s3_bucket_prefix = "omer-spark-rental-arbitrage"
+
+# Example: "jd-rental-arbitrage" for John Doe
